@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+
+    <!-- csslink  -->
+    <link rel="stylesheet" href="./weather.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div id="wrap" class="wrapper">
+        <header> <i id="back" class="fa fa-arrow-left" aria-hidden="true"></i> Weather app</header>
+        <section class="input-part">
+            <p id="info-txt" class="info-txt"> </p>
+            <input id="input" type="text" placeholder="City name" required>
+            <button id="search"> <i class="fa fa-search" aria-hidden="true"></i></button>
+            <div class="separator"></div>
+            <button id="myLocation"> Location Weather</button>
+
+        </section>
+        <section class="weather-part">
+            <div class="weather-icon">
+                <!-- <i class="fa fa-4x fa-cloud" style="color: dimgray" aria-hidden="true"></i> -->
+            </div>
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">°</span>c
+
+            </div>
+            <div class="weather"> _ _</div>
+            <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>_, _</span>
+            </div>
+            <div class="botom-details">
+                <div class="column feels">
+                    <i class="fa fa-wind" aria-hidden="true"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">km/h</span>
+                        </div>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="fas fa-tint"></i>
+                    <!-- <i class="fa fa-droplate-half" aria-hidden="true"></i> -->
+                    <div class="details">
+                        <span>_</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+        </section>
+        </div>
+        <script src="./weather.js"></script>
+</body>
+
+</html>
