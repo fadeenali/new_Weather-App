@@ -22,7 +22,7 @@ body {
 }
 
 .wrapper header {
-    color: #0ABAB5;
+    color: #075c58;
     font-size: 25px;
     font-weight: 900;
     padding: 12px 12px;
@@ -59,24 +59,24 @@ header i {
     margin-bottom: 15px;
 }
 
-.info-txt .error {
+/* .info-txt .error {
     display: block;
     color: #721c24;
     background: #f8c6ca;
     border: 1px solid #f5c6cb;
-}
+} */
 
 .wrongInput {
     color: #721c24;
     background: #f8c6ca;
 }
 
-.info-txt .pending {
+/* .info-txt .pending {
     display: block;
     color: #0c5460;
     background: #d1ecf1;
     border: 1px solid #bee5eb;
-}
+} */
 
 .input-part :where( input, button) {
     width: 100%;
@@ -92,6 +92,7 @@ header i {
     text-align: center;
     border: 1px solid #bfbfbf;
     background-color: aliceblue;
+    color:#075c58 ;
 }
 
 .input-part input :is(:focus, :valid) {
